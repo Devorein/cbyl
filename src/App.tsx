@@ -5,8 +5,8 @@ import data from "./data";
 
 function App() {
   return (
-    <div className="App">
-      <div className="sidebar primary-1 flex flex-cols align-center">
+    <div className="App flex">
+      <div className="sidebar primary-1 flex flex-col align-center">
         <div className="name heading-1 mv-10px">
           {data.name}
         </div>
@@ -14,6 +14,7 @@ function App() {
           {data.title}
         </div>
         <Block
+          contentRenderComponent="list"
           headerText="Personal Info"
           headerIcon={
             'person'
@@ -36,6 +37,7 @@ function App() {
           }}
         />
         <Block
+          contentRenderComponent="list"
           headerText="Profile Links"
           headerIcon={
             'link'
@@ -74,6 +76,7 @@ function App() {
           }}
         />
         <Block
+          contentRenderComponent="list"
           headerText="Skills"
           headerIcon={
             'puzzle'
@@ -83,6 +86,7 @@ function App() {
           }}
         />
         <Block
+          contentRenderComponent="list"
           headerText="Strengths"
           headerIcon={
             'muscle'
@@ -92,12 +96,13 @@ function App() {
           }}
         />
       </div>
-      <div className="main-content">
+      <div className="main-content ml-10px w-100p">
         <Block
           headerText="Programming Languages"
           headerIcon={"code"}
-          listProps={{
-            items: data.programming_languages
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.programming_languages.map((value) => [value.toLowerCase(), value])
           }}
         />
       </div>

@@ -38,7 +38,7 @@ const data = {
     "Python",
     "Go",
     "Sass",
-    "Shell"
+    "Bash"
   ]
 }
 
