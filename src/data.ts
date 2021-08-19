@@ -39,6 +39,14 @@ const data = {
     "Go",
     "Sass",
     "Bash"
+  ],
+  frameworks: [
+    "Apollo Graphql",
+    "Express",
+    "Next.js",
+    "React Native",
+    "Storybook",
+    "Vue.js"
   ]
 }
 

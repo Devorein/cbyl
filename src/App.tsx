@@ -102,7 +102,16 @@ function App() {
           headerIcon={"code"}
           contentRenderComponent="chips"
           chipsProps={{
-            items: data.programming_languages.map((value) => [value.toLowerCase(), value])
+            items: data.programming_languages.map((value) => [value, value])
+          }}
+        />
+
+        <Block
+          headerText="Frameworks"
+          headerIcon={"code"}
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.frameworks.map((value) => [value, value])
           }}
         />
       </div>
