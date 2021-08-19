@@ -47,6 +47,11 @@ const data = {
     "React Native",
     "Storybook",
     "Vue.js"
+  ],
+  databases: [
+    "MongoDB",
+    "Postgresql",
+    "Redis"
   ]
 }
 

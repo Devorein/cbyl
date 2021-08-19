@@ -114,6 +114,15 @@ function App() {
             items: data.frameworks.map((value) => [value, value])
           }}
         />
+
+        <Block
+          headerText="Databases"
+          headerIcon={"code"}
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.databases.map((value) => [value, value])
+          }}
+        />
       </div>
     </div>
   );
