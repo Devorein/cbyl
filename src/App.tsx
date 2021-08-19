@@ -123,6 +123,15 @@ function App() {
             items: data.databases.map((value) => [value, value])
           }}
         />
+
+        <Block
+          headerText="Platforms"
+          headerIcon={"code"}
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.platforms.map((value) => [value, value])
+          }}
+        />
       </div>
     </div>
   );

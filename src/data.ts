@@ -52,6 +52,15 @@ const data = {
     "MongoDB",
     "Postgresql",
     "Redis"
+  ],
+  platforms: [
+    "DigitalOcean",
+    "Docker",
+    "Github Actions",
+    "Heroku",
+    "Netlify",
+    "Vercel",
+    "Firebase"
   ]
 }
 
