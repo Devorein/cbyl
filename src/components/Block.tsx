@@ -1,11 +1,10 @@
-import type { ReactNode } from "react";
 import React from "react";
-import { List } from "./";
+import { Icon, List } from "./";
 
 interface BlockProps {
   headerText: string
-  headerIcon: HTMLElement | ReactNode
-  items: Array<string | Array<ReactNode | (string | ReactNode)>>
+  headerIcon: string
+  items: Array<string | Array<string>>
 }
 
 export function Block(props: BlockProps) {
@@ -17,7 +16,7 @@ export function Block(props: BlockProps) {
           <rect x="24.7487" width="35" height="35" rx="5" transform="rotate(45 24.7487 0)" fill="black" />
         </svg>
         <div className="absolute">
-          {headerIcon}
+          <Icon icon={headerIcon} />
         </div>
       </div>
       <div className="Block-header-text heading-3 ml-10px">{headerText}</div>

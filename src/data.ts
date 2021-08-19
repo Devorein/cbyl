@@ -4,7 +4,16 @@ const data = {
   description: "An skilled developer dedicated to lifelong learning with a passion for tinkering with bleeding edge technologies and making an impact along the way.",
   location: "Dhaka, Bangladesh",
   phone: "+8801796263758",
-  email: "safwanshaheer00@gmail.com"
+  email: "safwanshaheer00@gmail.com",
+  links: {
+    github: "https://github.com/devorein",
+    linkedin: "https://linkedin.com/in/devorein",
+    hashnode: "https://hashnode.com/@devorein",
+    stackoverflow: "https://stackoverflow.com/users/9745104/devorein",
+    codewars: "https://codewars.com/users/Devorein",
+    wakatime: "https://wakatime.com/@devorein",
+    twitter: "https://twitter.com/devorein"
+  }
 }
 
 export default data;
