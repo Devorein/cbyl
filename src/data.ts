@@ -13,7 +13,17 @@ const data = {
     codewars: "https://codewars.com/users/Devorein",
     wakatime: "https://wakatime.com/@devorein",
     twitter: "https://twitter.com/devorein"
-  }
+  },
+  skills: [
+    "Algorithm",
+    "Data Structures",
+    "Object Oriented Programming",
+    "Test Driven Development",
+    "Open Source Contribution",
+    "Full Stack Development",
+    "Mobile Development (React Native)",
+    "Linux"
+  ]
 }
 
 export default data;

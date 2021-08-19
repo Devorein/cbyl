@@ -66,6 +66,12 @@ function App() {
               data.links.twitter
             ]
           ]} />
+        <Block
+          headerText="Skills"
+          headerIcon={
+            'skills'
+          }
+          items={data.skills} />
       </div>
     </div>
   );
