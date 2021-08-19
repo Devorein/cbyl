@@ -1,14 +1,15 @@
 import type { ReactNode } from "react";
 import React from "react";
+import { List } from "./";
 
 interface BlockProps {
-  children: ReactNode
   headerText: string
   headerIcon: HTMLElement | ReactNode
+  items: Array<string | Array<ReactNode | (string | ReactNode)>>
 }
 
 export function Block(props: BlockProps) {
-  const { children, headerText, headerIcon } = props;
+  const { headerText, headerIcon, items } = props;
   return <div className="Block w-100p">
     <div className="Block-header flex align-center items-center p-10px br-5px mv-10px primary-2">
       <div className="Block-header-icon flex items-center align-center">
@@ -21,6 +22,8 @@ export function Block(props: BlockProps) {
       </div>
       <div className="Block-header-text heading-3 ml-10px">{headerText}</div>
     </div>
-    {children}
+    <div className="Block-content">
+      <List items={items} />
+    </div>
   </div>
 }
