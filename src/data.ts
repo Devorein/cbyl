@@ -23,6 +23,13 @@ const data = {
     "Full Stack Development",
     "Mobile Development (React Native)",
     "Linux"
+  ],
+  strengths: [
+    "Hard Working",
+    "Time Management",
+    "Proactive",
+    "Active Listener",
+    "Dedicated Learner"
   ]
 }
 
