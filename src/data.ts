@@ -21,7 +21,7 @@ const data = {
     "Test Driven Development",
     "Open Source Contribution",
     "Full Stack Development",
-    "Mobile Development (React Native)",
+    "Mobile Development",
     "Linux"
   ],
   strengths: [
@@ -29,7 +29,16 @@ const data = {
     "Time Management",
     "Proactive",
     "Active Listener",
-    "Dedicated Learner"
+    "Dedicated Learner",
+    "Team Worker"
+  ],
+  programming_languages: [
+    "Typescript",
+    "Javascript",
+    "Python",
+    "Go",
+    "Sass",
+    "Shell"
   ]
 }
 

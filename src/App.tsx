@@ -17,69 +17,88 @@ function App() {
           headerText="Personal Info"
           headerIcon={
             'person'
-          } items={[
-            [
-              "location",
-              data.location
-            ],
-            [
-              "phone",
-              data.phone
-            ],
-            [
-              "email",
-              data.email
+          }
+          listProps={{
+            items: [
+              [
+                "location",
+                data.location
+              ],
+              [
+                "phone",
+                data.phone
+              ],
+              [
+                "email",
+                data.email
+              ]
             ]
-          ]} />
+          }}
+        />
         <Block
           headerText="Profile Links"
           headerIcon={
             'link'
           }
-          items={[
-            [
-              "github",
-              data.links.github
-            ],
-            [
-              "linkedin",
-              data.links.linkedin
-            ],
-            [
-              "hashnode",
-              data.links.hashnode
-            ],
-            [
-              "stackoverflow",
-              data.links.stackoverflow
-            ],
-            [
-              "codewars",
-              data.links.codewars
-            ],
-            [
-              "wakatime",
-              data.links.wakatime
-            ],
-            [
-              "twitter",
-              data.links.twitter
+          listProps={{
+            items: [
+              [
+                "github",
+                data.links.github
+              ],
+              [
+                "linkedin",
+                data.links.linkedin
+              ],
+              [
+                "hashnode",
+                data.links.hashnode
+              ],
+              [
+                "stackoverflow",
+                data.links.stackoverflow
+              ],
+              [
+                "codewars",
+                data.links.codewars
+              ],
+              [
+                "wakatime",
+                data.links.wakatime
+              ],
+              [
+                "twitter",
+                data.links.twitter
+              ]
             ]
-          ]}
+          }}
         />
         <Block
           headerText="Skills"
           headerIcon={
             'puzzle'
           }
-          items={data.skills}
+          listProps={{
+            items: data.skills
+          }}
         />
         <Block
           headerText="Strengths"
           headerIcon={
             'muscle'
           }
-          items={data.strengths}
+          listProps={{
+            items: data.strengths
+          }}
+        />
+      </div>
+      <div className="main-content">
+        <Block
+          headerText="Programming Languages"
+          headerIcon={"code"}
+          listProps={{
+            items: data.programming_languages
+          }}
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from ".";
 
-interface ListProps {
+export interface ListProps {
   items: Array<string | Array<string>>
 }
 

@@ -1,14 +1,14 @@
 import React from "react";
-import { Icon, List } from "./";
+import { Icon, List, ListProps } from "./";
 
 interface BlockProps {
   headerText: string
   headerIcon: string
-  items: Array<string | Array<string>>
+  listProps: ListProps
 }
 
 export function Block(props: BlockProps) {
-  const { headerText, headerIcon, items } = props;
+  const { headerText, headerIcon, listProps } = props;
   return <div className="Block w-100p">
     <div className="Block-header flex align-center items-center p-10px br-5px mv-10px primary-2">
       <div className="Block-header-icon flex items-center align-center">
@@ -22,7 +22,7 @@ export function Block(props: BlockProps) {
       <div className="Block-header-text heading-3 ml-10px">{headerText}</div>
     </div>
     <div className="Block-content">
-      <List items={items} />
+      <List {...listProps} />
     </div>
   </div>
 }
