@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Block, Skills } from './components';
+import { Block, Experiences, Skills } from './components';
 import data from "./data";
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
         </div>
         <Block
           contentRenderComponent="list"
-          headerText="Personal Info"
-          headerIcon={
-            'person'
-          }
+          headerProps={{
+            headerText: "Personal Info",
+            headerIcon: 'person'
+          }}
           listProps={{
             items: [
               [
@@ -38,10 +38,10 @@ function App() {
         />
         <Block
           contentRenderComponent="list"
-          headerText="Profile Links"
-          headerIcon={
-            'link'
-          }
+          headerProps={{
+            headerText: "Profile Links",
+            headerIcon: 'link'
+          }}
           listProps={{
             items: [
               [
@@ -77,20 +77,20 @@ function App() {
         />
         <Block
           contentRenderComponent="list"
-          headerText="Skills"
-          headerIcon={
-            'puzzle'
-          }
+          headerProps={{
+            headerText: "Skills",
+            headerIcon: 'puzzle'
+          }}
           listProps={{
             items: data.skills
           }}
         />
         <Block
           contentRenderComponent="list"
-          headerText="Strengths"
-          headerIcon={
-            'muscle'
-          }
+          headerProps={{
+            headerText: "Strengths",
+            headerIcon: 'muscle'
+          }}
           listProps={{
             items: data.strengths
           }}
@@ -98,6 +98,7 @@ function App() {
       </div>
       <div className="main-content ml-10px w-100p">
         <Skills />
+        <Experiences />
       </div>
     </div>
   );

@@ -79,6 +79,17 @@ const data = {
     "Notion",
     "Postman",
     "VSCode"
+  ],
+  experiences: [
+    {
+      company_name: "Atlas Authority LLC",
+      title: "Developer Intern",
+      logo: "https://www.clipartmax.com/png/middle/345-3458375_atlas-authority-llc-logo-traffic-sign.png",
+      location: "New York, United States",
+      start_date: "July 2021",
+      end_date: "Present",
+      employment_type: "Part-time"
+    }
   ]
 }
 
