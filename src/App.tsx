@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Block } from './components';
+import { Block, Skills } from './components';
 import data from "./data";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <div className="name heading-1 mv-10px">
           {data.name}
         </div>
-        <div className="title heading-4 text-center">
+        <div className="title heading-4 text-center mb-15px">
           {data.title}
         </div>
         <Block
@@ -97,57 +97,7 @@ function App() {
         />
       </div>
       <div className="main-content ml-10px w-100p">
-        <div className="grid grid-cols-2">
-          <Block
-            headerText="Programming Languages"
-            headerIcon={"code"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.programming_languages.map((value) => [value, value])
-            }}
-          />
-          <Block
-            headerText="Platforms"
-            headerIcon={"platform"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.platforms.map((value) => [value, value])
-            }}
-          />
-          <Block
-            headerText="Frameworks"
-            headerIcon={"cog"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.frameworks.map((value) => [value, value])
-            }}
-          />
-          <Block
-            headerText="Libraries"
-            headerIcon={"cube"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.libraries.map((value) => [value, value])
-            }}
-          />
-          <Block
-            headerText="Databases"
-            headerIcon={"database"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.databases.map((value) => [value, value])
-            }}
-          />
-
-          <Block
-            headerText="Tools"
-            headerIcon={"tools"}
-            contentRenderComponent="chips"
-            chipsProps={{
-              items: data.tools.map((value) => [value, value])
-            }}
-          />
-        </div>
+        <Skills />
       </div>
     </div>
   );
