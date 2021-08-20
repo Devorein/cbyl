@@ -46,7 +46,8 @@ const data = {
     "Next.js",
     "React Native",
     "Storybook",
-    "Vue.js"
+    "Vue.js",
+    "Material UI"
   ],
   databases: [
     "MongoDB",
