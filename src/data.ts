@@ -88,7 +88,12 @@ const data = {
       location: "New York, United States",
       start_date: "July 2021",
       end_date: "Present",
-      employment_type: "Part-time"
+      employment_type: "Part-time",
+      steps: [
+        "Building a notion integration using forge platform",
+        "Creating custom notion frontend renderer",
+        "Creating custom notion backend api"
+      ]
     }
   ]
 }
