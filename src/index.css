@@ -275,3 +275,12 @@ body{
 .w-100p{
   width: 100%;
 }
+
+.grid{
+  display: grid;
+}
+
+.grid-cols-2{
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
