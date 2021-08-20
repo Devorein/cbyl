@@ -141,6 +141,15 @@ function App() {
             items: data.platforms.map((value) => [value, value])
           }}
         />
+
+        <Block
+          headerText="Tools"
+          headerIcon={"code"}
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.tools.map((value) => [value, value])
+          }}
+        />
       </div>
     </div>
   );

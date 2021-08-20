@@ -72,6 +72,13 @@ const data = {
     "Redux",
     "Tailwind CSS",
     "Webpack",
+  ],
+  tools: [
+    "Figma",
+    "Git",
+    "Notion",
+    "Postman",
+    "VSCode"
   ]
 }
 
