@@ -116,6 +116,15 @@ function App() {
         />
 
         <Block
+          headerText="Libraries"
+          headerIcon={"code"}
+          contentRenderComponent="chips"
+          chipsProps={{
+            items: data.libraries.map((value) => [value, value])
+          }}
+        />
+
+        <Block
           headerText="Databases"
           headerIcon={"code"}
           contentRenderComponent="chips"

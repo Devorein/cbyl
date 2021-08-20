@@ -62,6 +62,16 @@ const data = {
     "Netlify",
     "Vercel",
     "Firebase"
+  ],
+  libraries: [
+    "Babel",
+    "Eslint",
+    "Formik",
+    "Jest",
+    "React",
+    "Redux",
+    "Tailwind CSS",
+    "Webpack",
   ]
 }
 
