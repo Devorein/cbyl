@@ -116,8 +116,8 @@ const data = {
         stack: [
           "Vue.js"
         ],
-        start_date: "August, 5th 2021",
-        end_date: "August, 11th 2021",
+        start_date: "August 5th, 2021",
+        end_date: "August 11th, 2021",
       },
       {
         name: "HDWD",
@@ -132,8 +132,8 @@ const data = {
           "Formik",
           "Google Analytics"
         ],
-        start_date: "July, 14th 2021",
-        end_date: "July, 28th 2021",
+        start_date: "July 14th, 2021",
+        end_date: "July 28th, 2021",
       },
       {
         name: "Dev Shahriar",
@@ -148,8 +148,8 @@ const data = {
           "Moment",
           "React Icons"
         ],
-        start_date: "July, 5th 2021",
-        end_date: "July, 10th 2021",
+        start_date: "July 5th, 2021",
+        end_date: "July 10th, 2021",
       }
     ] as IProject[],
     apps: [
@@ -165,7 +165,7 @@ const data = {
           "Material UI",
           "Firebase"
         ],
-        start_date: "July, 5th 2021",
+        start_date: "July 5th, 2021",
         end_date: "Present",
       },
       {
@@ -177,7 +177,7 @@ const data = {
           "AWS",
           "GCP",
         ],
-        start_date: "July, 5th 2021",
+        start_date: "July 5th, 2021",
         end_date: "Present",
       },
       {
@@ -195,11 +195,89 @@ const data = {
           "js-yaml",
           "Notistack"
         ],
-        start_date: "May, 26th 2021",
+        start_date: "May 26th, 2021",
         end_date: "Present",
       }
     ] as IProject[],
-    libraries: [] as IProject[]
+    libraries: [
+      {
+        name: "Nishan",
+        description: "An ecosystem of packages for notion, written in Typescript",
+        links: {
+          npm: "https://www.npmjs.com/search?q=%40nishans",
+          github: "https://github.com/Devorein/Nishan"
+        },
+        stack: [
+          "Typescript",
+          "Node",
+          "Axios",
+        ],
+        start_date: "Oct 26th, 2020",
+        end_date: "Present",
+      },
+      {
+        name: "github-action-learn-section-notion",
+        description: "Update your github README learn section with data fetched from a remote notion database",
+        links: {
+          github: "https://github.com/Devorein/github-readme-learn-section-notion"
+        },
+        stack: [
+          "Github Actions",
+          "Typescript",
+          "Node",
+          "Notion",
+        ],
+        start_date: "May 4th, 2021",
+        end_date: "May 10th, 2021",
+      },
+      {
+        name: "Heroku Worker Toggler",
+        description: "A github action to toggle your heroku worker on/off to save resources used by your dyno",
+        links: {
+          github: "https://github.com/devorein/github-action-heroku-worker-toggler"
+        },
+        stack: [
+          "Github Actions",
+          "Node",
+          "Typescript",
+          "Heroku",
+        ],
+        start_date: "Aug 22nd, 2020",
+        end_date: "Aug 23rd, 2021",
+      },
+      {
+        name: "Relendar",
+        description: "A discord bot to keep track of your academic schedule.",
+        links: {
+          github: "https://github.com/devorein/github-action-heroku-worker-toggler"
+        },
+        stack: [
+          "Typescript",
+          "Node",
+          "Heroku",
+          "Moment",
+          "yargs",
+          "discord.js",
+        ],
+        start_date: "Aug 22nd, 2020",
+        end_date: "Aug 23rd, 2021",
+      },
+      {
+        name: "mongql",
+        description: "Generate graphql typedefs, resolvers, fragments and operations from mongoose schema in an instant.",
+        links: {
+          github: "https://github.com/Devorein/mongql",
+          npm: "https://www.npmjs.com/package/mongql",
+        },
+        stack: [
+          "Typescript",
+          "Graphql",
+          "Node",
+        ],
+        start_date: "July 16th, 2020",
+        end_date: "Aug 27th, 2020",
+      }
+    ] as IProject[]
   }
 }
 

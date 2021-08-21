@@ -3,10 +3,10 @@ import data from "../data";
 import { Block } from "./Block";
 
 export function Skills() {
-  return <div className="grid grid-cols-2">
+  return <div className="grid grid-cols-3">
     <Block
       headerProps={{
-        headerText: "Programming Languages",
+        headerText: "Languages",
         headerIcon: "code"
       }}
       contentRenderComponent="chips"

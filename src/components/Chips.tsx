@@ -10,13 +10,12 @@ export interface ChipsProps {
 export function Chips(props: ChipsProps) {
   const { items, className = '' } = props;
 
-  return <div className={`Chips ${className}`}>
+  return <div className={`Chips flex flex-wrap ${className}`}>
     {items.map((item) => {
       const containsIcon = Array.isArray(item)
       const content = !containsIcon ? item : item[1];
       const isLink = content.match(/^(http)/);
       const iconComponent = Icons.get(item[0])
-      console.log({ containsIcon, iconComponent })
       return <span key={content} className={`Chips-item pv-10px ph-10px mr-10px mb-10px`}>
         <span className="flex align-center">
           <span className="Chips-item-icon flex">

@@ -4,6 +4,7 @@ export interface IProject {
   links: {
     website?: string
     github?: string
+    npm?: string
   }
   stack: string[],
   start_date: string

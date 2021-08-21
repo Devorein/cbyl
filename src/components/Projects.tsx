@@ -8,19 +8,22 @@ import "./Projects.css";
 function Project(props: { project: IProject }) {
   const { project } = props;
   return <div className="Project-item p-10px flex flex-col align-center">
-    <div className="heading-3 mb-10px text-bold">{project.name}</div>
+    <div className="heading-3 mv-10px text-bold ">{project.name}</div>
     <div className="body-2 mb-10px">
       {project.start_date} - {project.end_date}
     </div>
-    <div className="p-5px">
+    <div className="p-5px flex align-center">
       {project.links.website && <a href={project.links.website} className="p-5px" target="_blank">
         <Icon icon="globe" />
       </a>}
       {project.links.github && <a href={project.links.github} className="p-5px" target="_blank">
         <Icon icon="github" />
       </a>}
+      {project.links.npm && <a href={project.links.npm} className="p-5px" target="_blank">
+        <Icon icon="NPM" />
+      </a>}
     </div>
-    <Chips className={'text-center'} items={project.stack.map(item => [item, item])} />
+    <Chips className={'items-center'} items={project.stack.map(item => [item, item])} />
     <div className="divider"></div>
     <div className="body-1 text-center p-15px">
       {project.description}
@@ -39,10 +42,18 @@ export function Projects() {
       </div>
     </div>
     <div className="mb-15px">
-      <Header headerText="Apps" headerIcon="browser" />
+      <Header headerText="Apps" headerIcon="window" />
       <div className="grid grid-cols-2">
         {
           data.projects.apps.map(app => <Project key={app.name} project={app} />)
+        }
+      </div>
+    </div>
+    <div className="mb-15px">
+      <Header headerText="Libraries" headerIcon="cube" />
+      <div className="grid grid-cols-2">
+        {
+          data.projects.libraries.map(library => <Project key={library.name} project={library} />)
         }
       </div>
     </div>
