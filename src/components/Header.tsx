@@ -4,10 +4,11 @@ import { Icon } from ".";
 export interface HeaderProps {
   headerText: string
   headerIcon: string
+  primary?: boolean
 }
 
 export function Header(props: HeaderProps) {
-  const { headerText, headerIcon } = props;
+  const { headerText, headerIcon, primary = true } = props;
   return <div className="Header flex align-center items-center p-10px br-5px mb-10px primary-2">
     <div className="Header-icon flex items-center align-center">
       <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">

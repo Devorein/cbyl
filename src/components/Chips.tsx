@@ -4,12 +4,13 @@ import "./Chips.css";
 
 export interface ChipsProps {
   items: Array<string | Array<string>>
+  className?: string
 }
 
 export function Chips(props: ChipsProps) {
-  const { items } = props;
+  const { items, className = '' } = props;
 
-  return <div className={`Chips`}>
+  return <div className={`Chips ${className}`}>
     {items.map((item) => {
       const containsIcon = Array.isArray(item)
       const content = !containsIcon ? item : item[1];

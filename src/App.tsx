@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Block, Experiences, Skills } from './components';
+import { Block, Experiences, Projects, Skills } from './components';
 import data from "./data";
 
 function App() {
@@ -107,6 +107,7 @@ function App() {
         />
       </div>
       <div className="main-content ml-10px w-100p">
+        <Projects />
         <Experiences />
         <Skills />
       </div>

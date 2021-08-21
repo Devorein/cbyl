@@ -330,3 +330,63 @@ body{
 .right-0{
   right: 0;
 }
+
+.pl-3px{
+  padding-left: 3px;
+}
+
+.pr-3px{
+  padding-right: 3px;
+}
+
+.pt-3px{
+  padding-top: 3px;
+}
+
+.pb-3px{
+  padding-bottom: 3px;
+}
+
+.p-3px{
+  padding: 3px;
+}
+
+.pv-3px{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.ph-3px{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.ml-25px{
+  margin-left: 25px;
+}
+
+.mr-25px{
+  margin-right: 25px;
+}
+
+.mt-25px{
+  margin-top: 25px;
+}
+
+.mb-25px{
+  margin-bottom: 25px;
+}
+
+.m-25px{
+  margin: 25px;
+}
+
+.mv-25px{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.mh-25px{
+  margin-left: 25px;
+  margin-right: 25px;
+}

@@ -6,7 +6,7 @@ import { Header } from "./Header";
 import { List } from "./List";
 
 export function Experiences() {
-  return <div className="Experiences mb-15px">
+  return <div className="Experiences mb-25px">
     <Header headerIcon="sandtime" headerText="Experiences" />
     <div className="Experiences-content grid grid-cols-2">
       {data.experiences.map(experience => {
@@ -14,7 +14,7 @@ export function Experiences() {
           <div className="flex align-center pb-10px Experiences-item-info">
             <img src={experience.logo} alt={experience.company_name} height={100} width={100} className="mr-10px" />
             <div className="absolute p-5px top-0 right-0">
-              <div className="flex p-5px">
+              <div className="flex p-5px align-center">
                 {experience.links.website && <a href={experience.links.website} className="p-5px" target="_blank">
                   <Icon icon="globe" />
                 </a>}

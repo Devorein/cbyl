@@ -29,9 +29,9 @@ const data = {
     "Hard Working",
     "Time Management",
     "Proactive",
-    "Active Listener",
     "Dedicated Learner",
-    "Team Worker"
+    "Team player",
+    "Reliable & Consistent"
   ],
   programming_languages: [
     "Typescript",
@@ -100,7 +100,42 @@ const data = {
         linkedin: "https://www.linkedin.com/company/atlas-authority/"
       }
     }
-  ]
+  ],
+  projects: {
+    sites: [
+      {
+        name: "Yalavisa",
+        description: "Yalavisa is a visa issuance service for the fastest Dubai in Israel! Until Business Day 1 and your visa! Thousands of satisfied customers. Easy and fast service without filling out forms, at the cheapest price in Israel. And all this directly from your WhatsApp",
+        links: {
+          website: "https://yalavisa.pages.dev/",
+          github: null
+        },
+        stack: [
+          "Vue.js"
+        ],
+        start_date: "August, 5th 2021",
+        end_date: "August, 11th 2021",
+      },
+      {
+        name: "HDWD",
+        description: "Garner constructive feedback of your facilities without hurting your Google ratings",
+        links: {
+          website: "https://review-nextjs.pages.dev/",
+          github: null
+        },
+        stack: [
+          "Next.js",
+          "Tailwind CSS",
+          "Formik",
+          "Google Analytics"
+        ],
+        start_date: "August, 5th 2021",
+        end_date: "August, 11th 2021",
+      }
+    ],
+    apps: [],
+    libraries: []
+  }
 }
 
 export default data;
