@@ -8,7 +8,7 @@ import "./Projects.css";
 function Project(props: { project: IProject }) {
   const { project } = props;
   return <div className="Project-item p-10px flex flex-col align-center">
-    <div className="heading-3 mv-10px text-bold ">{project.name}</div>
+    <div className="heading-3 mv-10px text-bold text-center ph-10px">{project.name}</div>
     <div className="body-2 mb-10px">
       {project.start_date} - {project.end_date}
     </div>
@@ -35,7 +35,7 @@ export function Projects() {
   return <div className="Projects mb-15px">
     <div className="mb-15px">
       <Header headerText="Sites" headerIcon="browser" />
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-3">
         {
           data.projects.sites.map(site => <Project key={site.name} project={site} />)
         }
@@ -43,7 +43,7 @@ export function Projects() {
     </div>
     <div className="mb-15px">
       <Header headerText="Apps" headerIcon="window" />
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-3">
         {
           data.projects.apps.map(app => <Project key={app.name} project={app} />)
         }
@@ -51,7 +51,7 @@ export function Projects() {
     </div>
     <div className="mb-15px">
       <Header headerText="Libraries" headerIcon="cube" />
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-3">
         {
           data.projects.libraries.map(library => <Project key={library.name} project={library} />)
         }

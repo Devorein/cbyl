@@ -16,6 +16,27 @@ export function Skills() {
     />
     <Block
       headerProps={{
+        headerText: "Databases",
+        headerIcon: "database"
+      }}
+      contentRenderComponent="chips"
+      chipsProps={{
+        items: data.databases.map((value) => [value, value])
+      }}
+    />
+
+    <Block
+      headerProps={{
+        headerText: "Tools",
+        headerIcon: "tools"
+      }}
+      contentRenderComponent="chips"
+      chipsProps={{
+        items: data.tools.map((value) => [value, value])
+      }}
+    />
+    <Block
+      headerProps={{
         headerText: "Platforms",
         headerIcon: "platform"
       }}
@@ -44,26 +65,6 @@ export function Skills() {
         items: data.libraries.map((value) => [value, value])
       }}
     />
-    <Block
-      headerProps={{
-        headerText: "Databases",
-        headerIcon: "database"
-      }}
-      contentRenderComponent="chips"
-      chipsProps={{
-        items: data.databases.map((value) => [value, value])
-      }}
-    />
 
-    <Block
-      headerProps={{
-        headerText: "Tools",
-        headerIcon: "tools"
-      }}
-      contentRenderComponent="chips"
-      chipsProps={{
-        items: data.tools.map((value) => [value, value])
-      }}
-    />
   </div>
 }

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App flex">
       <div className="sidebar primary-1 flex flex-col align-center">
-        <div className="name heading-1 mv-10px">
+        <div className="name heading-1 mv-10px text-center">
           {data.name}
         </div>
         <div className="title heading-4 text-center mb-15px">
@@ -46,41 +46,63 @@ function App() {
             items: [
               [
                 "globe",
-                data.links.website
+                data.links.website[0],
+                {
+                  link: data.links.website[1]
+                }
               ],
               [
                 "github",
-                data.links.github
+                data.links.github[0],
+                {
+                  link: data.links.github[1]
+                }
               ],
               [
                 "linkedin",
-                data.links.linkedin
+                data.links.linkedin[0],
+                {
+                  link: data.links.linkedin[1]
+                }
               ],
               [
                 "hashnode",
-                data.links.hashnode
+                data.links.hashnode[0],
+                {
+                  link: data.links.hashnode[1]
+                }
               ],
               [
                 "stackoverflow",
-                data.links.stackoverflow,
+                data.links.stackoverflow[0],
                 {
                   style: {
                     position: 'relative',
                     left: -3
-                  }
+                  },
+                  link: data.links.stackoverflow[1],
                 }
               ],
               [
                 "codewars",
-                data.links.codewars
+                data.links.codewars[0],
+                {
+                  link: data.links.codewars[1]
+                }
               ],
               [
                 "wakatime",
-                data.links.wakatime
+                data.links.wakatime[0],
+                {
+                  link: data.links.wakatime[1]
+                }
               ],
               [
                 "twitter",
-                data.links.twitter
+                data.links.twitter[0],
+                {
+                  link: data.links.twitter[1]
+                }
               ]
             ]
           }}

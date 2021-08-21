@@ -8,14 +8,38 @@ const data = {
   phone: "+8801796263758",
   email: "safwanshaheer00@gmail.com",
   links: {
-    website: "https://devorein.me",
-    github: "https://github.com/devorein",
-    linkedin: "https://linkedin.com/in/devorein",
-    hashnode: "https://hashnode.com/@devorein",
-    stackoverflow: "https://stackoverflow.com/users/9745104/devorein",
-    codewars: "https://codewars.com/users/Devorein",
-    wakatime: "https://wakatime.com/@devorein",
-    twitter: "https://twitter.com/devorein"
+    website: [
+      "devorein.me",
+      "https://devorein.me"
+    ],
+    github: [
+      "github.com/devorein",
+      "https://github/devorein"
+    ],
+    linkedin: [
+      "linkedin/devorein",
+      "https://linkedin.com/in/devorein"
+    ],
+    hashnode: [
+      "hashnode/@devorein",
+      "https://hashnode.com/@devorein"
+    ],
+    stackoverflow: [
+      "stackoverflow/devorein",
+      "https://stackoverflow.com/users/9745104/devorein"
+    ],
+    codewars: [
+      "codewars/Devorein",
+      "https://codewars.com/users/Devorein",
+    ],
+    wakatime: [
+      "wakatime/@devorein",
+      "https://wakatime.com/@devorein",
+    ],
+    twitter: [
+      "twitter/devorein",
+      "https://twitter.com/devorein"
+    ]
   },
   skills: [
     "Algorithm",
@@ -108,7 +132,7 @@ const data = {
     sites: [
       {
         name: "Yalavisa",
-        description: "Yalavisa is a visa issuance service for the fastest Dubai in Israel! Until Business Day 1 and your visa! Thousands of satisfied customers. Easy and fast service without filling out forms, at the cheapest price in Israel. And all this directly from your WhatsApp",
+        description: "Yalavisa is a visa issuance service for the fastest Dubai in Israel!",
         links: {
           website: "https://yalavisa.pages.dev/",
           github: null
@@ -165,7 +189,7 @@ const data = {
           "Material UI",
           "Firebase"
         ],
-        start_date: "July 5th, 2021",
+        start_date: "June 24th, 2021",
         end_date: "Present",
       },
       {
@@ -177,8 +201,8 @@ const data = {
           "AWS",
           "GCP",
         ],
-        start_date: "July 5th, 2021",
-        end_date: "Present",
+        start_date: "April 2nd, 2021",
+        end_date: "June 4th, 2021",
       },
       {
         name: "Reinforz",
@@ -191,9 +215,7 @@ const data = {
           "React",
           "Material UI",
           "React Icons",
-          "Prism",
-          "js-yaml",
-          "Notistack"
+          "React Dropzone"
         ],
         start_date: "May 26th, 2021",
         end_date: "Present",
@@ -242,8 +264,8 @@ const data = {
           "Typescript",
           "Heroku",
         ],
-        start_date: "Aug 22nd, 2020",
-        end_date: "Aug 23rd, 2021",
+        start_date: "Aug 22nd, 2021",
+        end_date: "Aug 27th, 2021",
       },
       {
         name: "Relendar",
@@ -254,13 +276,12 @@ const data = {
         stack: [
           "Typescript",
           "Node",
-          "Heroku",
           "Moment",
           "yargs",
           "discord.js",
         ],
-        start_date: "Aug 22nd, 2020",
-        end_date: "Aug 23rd, 2021",
+        start_date: "July 11th, 2021",
+        end_date: "Present",
       },
       {
         name: "mongql",
