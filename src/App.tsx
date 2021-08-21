@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Block, Education, Experiences, Projects, Skills } from './components';
+import { Certificates } from './components/Certificates';
 import data from "./data";
 
 function App() {
@@ -110,16 +111,6 @@ function App() {
         <Block
           contentRenderComponent="list"
           headerProps={{
-            headerText: "Skills",
-            headerIcon: 'puzzle'
-          }}
-          listProps={{
-            items: data.skills.map(skill => [null, skill])
-          }}
-        />
-        <Block
-          contentRenderComponent="list"
-          headerProps={{
             headerText: "Strengths",
             headerIcon: 'muscle'
           }}
@@ -127,6 +118,7 @@ function App() {
             items: data.strengths.map(strengths => [null, strengths])
           }}
         />
+        <Certificates />
       </div>
       <div className="main-content ml-10px w-100p">
         <div className="grid grid-cols-2">

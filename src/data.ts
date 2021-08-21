@@ -108,6 +108,40 @@ const data = {
     "Postman",
     "VSCode"
   ],
+  certificates: [
+    {
+      name: "Postman Student Expert",
+      organization: "Postman",
+      issue_date: "Jul, 2021",
+      expiration_date: "N/A",
+      credential_url: "https://badgr.com/backpack/badges/60e86db63c77ab51736dc19f",
+      logo: "https://media.badgr.com/uploads/badges/assertion-HYxMMyUgT8GDzczzRbo8AQ.png",
+    },
+    {
+      name: "RU330: Redis Security",
+      organization: "Redis Labs",
+      issue_date: "Jul, 2021",
+      expiration_date: "N/A",
+      credential_url: "https://university.redislabs.com/certificates/e2db31a2f914431d8fa71dac3c6aece6",
+      logo: "https://www.zdnet.com/a/hub/i/r/2020/05/11/f9afed5d-33cd-438f-ba73-31b31abba8e1/resize/370xauto/51e7a7c321c6531276c81ec376c7622e/redis-logo-2.png",
+    },
+    {
+      name: "RU102JS: Redis for JavaScript Developers",
+      organization: "Redis Labs",
+      issue_date: "Jun, 2021",
+      expiration_date: "N/A",
+      credential_url: "https://university.redislabs.com/certificates/b0953b94b1df445c9eea75cb3bca6682",
+      logo: "https://www.zdnet.com/a/hub/i/r/2020/05/11/f9afed5d-33cd-438f-ba73-31b31abba8e1/resize/370xauto/51e7a7c321c6531276c81ec376c7622e/redis-logo-2.png",
+    },
+    {
+      name: "RU101: Introduction to Redis Data Structures",
+      organization: "Redis Labs",
+      issue_date: "Jun, 2021",
+      expiration_date: "N/A",
+      credential_url: "https://university.redislabs.com/certificates/0297722d667d4830a86fe6a5e1457e48",
+      logo: "https://www.zdnet.com/a/hub/i/r/2020/05/11/f9afed5d-33cd-438f-ba73-31b31abba8e1/resize/370xauto/51e7a7c321c6531276c81ec376c7622e/redis-logo-2.png",
+    }
+  ],
   education: [
     {
       name: "BRAC University",
@@ -251,7 +285,7 @@ const data = {
         start_date: "Oct 26th, 2020",
         end_date: "Present",
       },
-      {
+      /* {
         name: "github-action-learn-section-notion",
         description: "Update your github README learn section with data fetched from a remote notion database",
         links: {
@@ -265,8 +299,8 @@ const data = {
         ],
         start_date: "May 4th, 2021",
         end_date: "May 10th, 2021",
-      },
-      {
+      }, */
+      /* {
         name: "Heroku Worker Toggler",
         description: "A github action to toggle your heroku worker on/off to save resources used by your dyno",
         links: {
@@ -280,7 +314,7 @@ const data = {
         ],
         start_date: "Aug 22nd, 2021",
         end_date: "Aug 27th, 2021",
-      },
+      }, */
       {
         name: "Relendar",
         description: "A discord bot to keep track of your academic schedule.",

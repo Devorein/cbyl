@@ -78,6 +78,14 @@ body{
   font-weight: 400;
 }
 
+.bg-white{
+  background-color: white;
+}
+
+.shadow-lg{
+  box-shadow: 1px 4px 6px 3px rgb(0, 0, 0, 0.1), 0 3px 3px 0 rgb(0, 0, 0, 0.06);
+}
+
 .primary-1{
   background-color: #DFDAFF;
 }
