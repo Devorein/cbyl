@@ -11,7 +11,7 @@ function App() {
         <div className="name heading-2 mv-10px text-center">
           {data.name}
         </div>
-        <div className="title heading-4 text-center mb-15px">
+        <div className="title heading-4 text-center mb-25px">
           {data.title}
         </div>
         <Block

@@ -52,12 +52,13 @@ const data = {
     "Linux"
   ],
   strengths: [
+    "Fluent in English",
     "Hard Working",
     "Time Management",
     "Proactive",
     "Dedicated Learner",
     "Team player",
-    "Reliable & Consistent"
+    "Reliable & Consistent",
   ],
   programming_languages: [
     "Typescript",

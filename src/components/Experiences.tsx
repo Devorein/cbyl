@@ -1,7 +1,6 @@
 import React from "react";
 import { Icon } from ".";
 import data from "../data";
-import "./Experiences.css";
 import { Header } from "./Header";
 import { List } from "./List";
 
@@ -10,7 +9,7 @@ export function Experiences() {
     <Header headerIcon="sandtime" headerText="Experiences" />
     <div className="Experiences-content">
       {data.experiences.map(experience => {
-        return <div className="Experiences-item mt-15px p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
+        return <div className="Experiences-item br-5px shadow-lg mt-15px p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
           <div className="flex align-center pb-10px Experiences-item-info">
             <img src={experience.logo} alt={experience.company_name} height={100} width={100} className="mr-10px" />
             <div className="absolute p-5px top-0 right-0">
@@ -43,6 +42,7 @@ export function Experiences() {
               </div>
             </div>
           </div>
+          <div className="divider"></div>
           <div className="mt-10px">
             <List size="small" items={experience.steps.map(step => [null, step])} />
           </div>

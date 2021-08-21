@@ -1,6 +1,5 @@
 import React from "react";
 import { Icons } from ".";
-import "./Chips.css";
 
 export interface ChipsProps {
   items: Array<string | Array<string>>
@@ -16,7 +15,7 @@ export function Chips(props: ChipsProps) {
       const content = !containsIcon ? item : item[1];
       const isLink = content.match(/^(http)/);
       const iconComponent = Icons.get(item[0])
-      return <span key={content} className={`Chips-item pv-10px ph-10px mr-10px mb-10px`}>
+      return <span key={content} className={`Chips-item br-5px shadow-md pv-10px ph-10px mr-10px mb-10px`}>
         <span className="flex align-center">
           <span className="Chips-item-icon flex">
             {!containsIcon ? <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">

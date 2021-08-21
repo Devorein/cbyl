@@ -1,6 +1,5 @@
 import React from 'react';
 import { Icon } from ".";
-import "./List.css";
 
 export interface ListProps {
   items: Array<[string | null, string, {

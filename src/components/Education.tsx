@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../data";
-import "./Education.css";
 import { Header } from "./Header";
 import { Icon } from "./Icon";
 
