@@ -108,6 +108,16 @@ const data = {
     "Postman",
     "VSCode"
   ],
+  education: [
+    {
+      name: "BRAC University",
+      degree: "Bachelor's degree",
+      fos: "Computer Science",
+      start_date: "January, 2021",
+      end_date: "January, 2024",
+      logo: "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png"
+    }
+  ],
   experiences: [
     {
       company_name: "Atlas Authority LLC",

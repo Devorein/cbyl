@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Block, Experiences, Projects, Skills } from './components';
+import { Block, Education, Experiences, Projects, Skills } from './components';
 import data from "./data";
 
 function App() {
   return (
     <div className="App flex">
       <div className="sidebar primary-1 flex flex-col align-center">
-        <div className="name heading-1 mv-10px text-center">
+        <div className="name heading-2 mv-10px text-center">
           {data.name}
         </div>
         <div className="title heading-4 text-center mb-15px">
@@ -129,8 +129,9 @@ function App() {
         />
       </div>
       <div className="main-content ml-10px w-100p">
-        <Projects />
+        <Education />
         <Experiences />
+        <Projects />
         <Skills />
       </div>
     </div>
