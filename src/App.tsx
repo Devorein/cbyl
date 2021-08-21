@@ -45,6 +45,10 @@ function App() {
           listProps={{
             items: [
               [
+                "globe",
+                data.links.website
+              ],
+              [
                 "github",
                 data.links.github
               ],
@@ -97,8 +101,8 @@ function App() {
         />
       </div>
       <div className="main-content ml-10px w-100p">
-        <Skills />
         <Experiences />
+        <Skills />
       </div>
     </div>
   );

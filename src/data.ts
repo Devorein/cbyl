@@ -6,6 +6,7 @@ const data = {
   phone: "+8801796263758",
   email: "safwanshaheer00@gmail.com",
   links: {
+    website: "https://devorein.me",
     github: "https://github.com/devorein",
     linkedin: "https://linkedin.com/in/devorein",
     hashnode: "https://hashnode.com/@devorein",
@@ -93,7 +94,11 @@ const data = {
         "Building a notion integration using forge platform",
         "Creating custom notion frontend renderer",
         "Creating custom notion backend api"
-      ]
+      ],
+      links: {
+        website: "https://atlasauthority.com/",
+        linkedin: "https://www.linkedin.com/company/atlas-authority/"
+      }
     }
   ]
 }

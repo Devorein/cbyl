@@ -318,3 +318,15 @@ body{
 .text-bold{
   font-weight: bold;
 }
+
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0;
+}
+
+.right-0{
+  right: 0;
+}
