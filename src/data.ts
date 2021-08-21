@@ -1,3 +1,5 @@
+import type { IProject } from "./types";
+
 const data = {
   name: "Safwan Shaheer",
   title: "Open Source Contributor and full-stack Web, Mobile Developer.",
@@ -62,7 +64,8 @@ const data = {
     "Heroku",
     "Netlify",
     "Vercel",
-    "Firebase"
+    "Firebase",
+    "Cloudflare Workers"
   ],
   libraries: [
     "Babel",
@@ -129,13 +132,76 @@ const data = {
           "Formik",
           "Google Analytics"
         ],
-        start_date: "August, 5th 2021",
-        end_date: "August, 11th 2021",
+        start_date: "July, 14th 2021",
+        end_date: "July, 28th 2021",
+      },
+      {
+        name: "Dev Shahriar",
+        description: "Portfolio Site for SM Shahriar Islam, Data Engineer at Pathao",
+        links: {
+          website: "https://shahriar.vercel.app/",
+          github: "https://github.com/devShahriar/shahriar"
+        },
+        stack: [
+          "Next.js",
+          "Tailwind CSS",
+          "Moment",
+          "React Icons"
+        ],
+        start_date: "July, 5th 2021",
+        end_date: "July, 10th 2021",
       }
-    ],
-    apps: [],
-    libraries: []
+    ] as IProject[],
+    apps: [
+      {
+        name: "Desimarketplace",
+        description: "An online marketplace connecting local vendors to Bangladeshis living in the US",
+        links: {
+          website: "https://desimart.vercel.app/"
+        },
+        stack: [
+          "Next.js",
+          "Tailwind CSS",
+          "Material UI",
+          "Firebase"
+        ],
+        start_date: "July, 5th 2021",
+        end_date: "Present",
+      },
+      {
+        name: "Rder",
+        description: "Rder is a real-time ride sharing mobile app inspired by Pathao and Uber",
+        links: {},
+        stack: [
+          "React Native",
+          "AWS",
+          "GCP",
+        ],
+        start_date: "July, 5th 2021",
+        end_date: "Present",
+      },
+      {
+        name: "Reinforz",
+        description: "An online quiz app to make learning any topic a breeze, with enriched functionality and customization in mind",
+        links: {
+          website: "https://reinforz.vercel.app",
+          github: "https://github.com/devorein/reinforz"
+        },
+        stack: [
+          "React",
+          "Material UI",
+          "React Icons",
+          "Prism",
+          "js-yaml",
+          "Notistack"
+        ],
+        start_date: "May, 26th 2021",
+        end_date: "Present",
+      }
+    ] as IProject[],
+    libraries: [] as IProject[]
   }
 }
+
 
 export default data;
