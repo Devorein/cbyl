@@ -2,14 +2,25 @@ import React from "react";
 import data from "../data";
 import "./Education.css";
 import { Header } from "./Header";
+import { Icon } from "./Icon";
 
 export function Education() {
   return <div className="Education">
     <Header headerIcon="mortarboard" headerText="Education" />
-    <div className="grid grid-cols-2">
+    <div className="">
       {data.education.map(education =>
-        <div className="flex align-center mv-15px p-15px Education-item">
+        <div className="flex align-center mv-15px p-15px Education-item relative">
           <img src={education.logo} alt={education.name} height={95} width={100} className="mr-15px" />
+          <div className="absolute p-5px top-0 right-0">
+            <div className="flex p-5px align-center">
+              {education.links.website && <a href={education.links.website} className="p-5px" target="_blank">
+                <Icon icon="globe" />
+              </a>}
+              {education.links.linkedin && <a href={education.links.linkedin} className="p-5px" target="_blank">
+                <Icon icon="linkedin" />
+              </a>}
+            </div>
+          </div>
           <div>
             <div className="heading-3 mb-10px text-bold">
               {education.name}

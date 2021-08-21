@@ -8,7 +8,7 @@ import { List } from "./List";
 export function Experiences() {
   return <div className="Experiences mb-25px">
     <Header headerIcon="sandtime" headerText="Experiences" />
-    <div className="Experiences-content grid grid-cols-2">
+    <div className="Experiences-content">
       {data.experiences.map(experience => {
         return <div className="Experiences-item mt-15px p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
           <div className="flex align-center pb-10px Experiences-item-info">

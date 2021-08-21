@@ -115,7 +115,11 @@ const data = {
       fos: "Computer Science",
       start_date: "January, 2021",
       end_date: "January, 2024",
-      logo: "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png"
+      logo: "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png",
+      links: {
+        website: "https://www.bracu.ac.bd/",
+        linkedin: "https://www.linkedin.com/school/brac-university/"
+      }
     }
   ],
   experiences: [
