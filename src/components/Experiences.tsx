@@ -44,7 +44,7 @@ export function Experiences() {
             </div>
           </div>
           <div className="mt-10px">
-            <List size="small" items={experience.steps} />
+            <List size="small" items={experience.steps.map(step => [null, step])} />
           </div>
         </div>
       })}

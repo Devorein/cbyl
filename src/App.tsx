@@ -62,7 +62,13 @@ function App() {
               ],
               [
                 "stackoverflow",
-                data.links.stackoverflow
+                data.links.stackoverflow,
+                {
+                  style: {
+                    position: 'relative',
+                    left: -3
+                  }
+                }
               ],
               [
                 "codewars",
@@ -86,7 +92,7 @@ function App() {
             headerIcon: 'puzzle'
           }}
           listProps={{
-            items: data.skills
+            items: data.skills.map(skill => [null, skill])
           }}
         />
         <Block
@@ -96,7 +102,7 @@ function App() {
             headerIcon: 'muscle'
           }}
           listProps={{
-            items: data.strengths
+            items: data.strengths.map(strengths => [null, strengths])
           }}
         />
       </div>
