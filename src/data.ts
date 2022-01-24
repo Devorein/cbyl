@@ -243,7 +243,7 @@ const data: IConfig = {
         name: "Desimarketplace",
         description: "An online marketplace connecting local vendors to Bangladeshis living in the US",
         links: {
-          website: "https://desimart.vercel.app/"
+          website: "https://deshimarketplace.com/"
         },
         stack: [
           "Next.js",
@@ -263,7 +263,7 @@ const data: IConfig = {
         },
         stack: [
           "Typescript",
-          "MySql",
+          "MySQL",
           "Express",
           "Material UI",
           "DigitalOcean",
@@ -281,8 +281,7 @@ const data: IConfig = {
         stack: [
           "React",
           "Material UI",
-          "React Icons",
-          "React Dropzone"
+          "React Icons"
         ].sort(),
         start_date: "May 26th, 2021",
         end_date: "Present",
@@ -298,8 +297,7 @@ const data: IConfig = {
         },
         stack: [
           "Typescript",
-          "Node",
-          "Axios",
+          "Node"
         ].sort(),
         start_date: "Oct 26th, 2020",
         end_date: "Present",
@@ -314,7 +312,7 @@ const data: IConfig = {
         stack: [
           "Typescript",
           "Node",
-          "Next"
+          "Next.js"
         ].sort(),
         start_date: "Nov 6th, 2021",
         end_date: "Present",
