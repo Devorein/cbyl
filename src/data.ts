@@ -11,7 +11,7 @@ const data: IConfig = {
     [
       "devorein.me",
       "https://devorein.me",
-      "website"
+      "globe"
     ],
     [
       "github.com/devorein",
@@ -50,14 +50,14 @@ const data: IConfig = {
     ]
   ],
   skills: [
+    "Full Stack Development",
+    "Open Source Development",
+    "Test Driven Development",
+    "Object Oriented Programming",
+    "DevOps",
     "Algorithm",
     "Data Structures",
-    "Object Oriented Programming",
-    "Test Driven Development",
-    "Open Source Development",
-    "Full Stack Development",
-    "Mobile Development",
-    "DevOps"
+    "Mobile Development"
   ],
   strengths: [
     "Fluent in English",
@@ -75,7 +75,7 @@ const data: IConfig = {
     "Go",
     "Sass",
     "Bash"
-  ],
+  ].sort(),
   frameworks: [
     "Apollo Graphql",
     "Express",
@@ -85,12 +85,12 @@ const data: IConfig = {
     "Storybook",
     "Vue.js",
     "Material UI"
-  ],
+  ].sort(),
   databases: [
     "MongoDB",
     "Postgresql",
     "Redis"
-  ],
+  ].sort(),
   platforms: [
     "AWS",
     "Cloudflare",
@@ -102,7 +102,7 @@ const data: IConfig = {
     "Netlify",
     "Terraform",
     "Vercel",
-  ],
+  ].sort(),
   libraries: [
     "Babel",
     "Eslint",
@@ -114,14 +114,14 @@ const data: IConfig = {
     "Snowpack",
     "Tailwind CSS",
     "Webpack",
-  ],
+  ].sort(),
   tools: [
     "Figma",
     "Git",
     "Notion",
     "Postman",
     "VSCode"
-  ],
+  ].sort(),
   certificates: [
     {
       name: "Postman Student Expert",
@@ -201,7 +201,7 @@ const data: IConfig = {
         },
         stack: [
           "Vue.js"
-        ],
+        ].sort(),
         start_date: "August 5th, 2021",
         end_date: "August 11th, 2021",
       },
@@ -217,7 +217,7 @@ const data: IConfig = {
           "Tailwind CSS",
           "Formik",
           "Google Analytics"
-        ],
+        ].sort(),
         start_date: "July 14th, 2021",
         end_date: "July 28th, 2021",
       },
@@ -233,7 +233,7 @@ const data: IConfig = {
           "Tailwind CSS",
           "Moment",
           "React Icons"
-        ],
+        ].sort(),
         start_date: "July 5th, 2021",
         end_date: "July 10th, 2021",
       }
@@ -250,7 +250,7 @@ const data: IConfig = {
           "Tailwind CSS",
           "Material UI",
           "Firebase"
-        ],
+        ].sort(),
         start_date: "June 24th, 2021",
         end_date: "Present",
       },
@@ -267,7 +267,7 @@ const data: IConfig = {
           "Express",
           "Material UI",
           "DigitalOcean",
-        ],
+        ].sort(),
         start_date: "Dec 6th, 2021",
         end_date: "Present",
       },
@@ -283,7 +283,7 @@ const data: IConfig = {
           "Material UI",
           "React Icons",
           "React Dropzone"
-        ],
+        ].sort(),
         start_date: "May 26th, 2021",
         end_date: "Present",
       }
@@ -300,7 +300,7 @@ const data: IConfig = {
           "Typescript",
           "Node",
           "Axios",
-        ],
+        ].sort(),
         start_date: "Oct 26th, 2020",
         end_date: "Present",
       },
@@ -315,7 +315,7 @@ const data: IConfig = {
           "Typescript",
           "Node",
           "Next"
-        ],
+        ].sort(),
         start_date: "Nov 6th, 2021",
         end_date: "Present",
       },
@@ -330,7 +330,7 @@ const data: IConfig = {
           "Typescript",
           "Graphql",
           "Node",
-        ],
+        ].sort(),
         start_date: "July 16th, 2020",
         end_date: "Aug 27th, 2020",
       }

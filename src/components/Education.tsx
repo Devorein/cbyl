@@ -7,7 +7,7 @@ export function Education() {
   return <div className="Education">
     <Header headerIcon="mortarboard" headerText="Education" />
     <div className="">
-      {data.education.map(education =>
+      {data.educations.map(education =>
         <div className="flex align-center mv-15px p-15px Education-item br-5px shadow-lg relative">
           <img src={education.logo} alt={education.name} height={95} width={100} className="mr-15px" />
           <div className="absolute p-5px top-0 right-0">
@@ -29,7 +29,7 @@ export function Education() {
                 {education.degree}
               </div>
               <div>
-                {education.fos}
+                {education.field}
               </div>
             </div>
             <div className="body-2">
