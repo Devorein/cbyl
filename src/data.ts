@@ -1,46 +1,54 @@
-import type { IProject } from "./types";
+import type { IConfig } from "./types";
 
-const data = {
+const data: IConfig = {
   name: "Safwan Shaheer",
   title: "Open Source Contributor, Full-stack Web, Mobile and DevOps Engineer.",
   description: "An skilled developer dedicated to lifelong learning with a passion for tinkering with bleeding edge technologies and making an impact along the way.",
   location: "Dhaka, Bangladesh",
   phone: "+8801796263758",
   email: "safwanshaheer00@gmail.com",
-  links: {
-    website: [
+  links: [
+    [
       "devorein.me",
-      "https://devorein.me"
+      "https://devorein.me",
+      "website"
     ],
-    github: [
+    [
       "github.com/devorein",
-      "https://github.com/devorein"
+      "https://github.com/devorein",
+      "github"
     ],
-    linkedin: [
+    [
       "linkedin/devorein",
-      "https://linkedin.com/in/devorein"
+      "https://linkedin.com/in/devorein",
+      "linkedin"
     ],
-    hashnode: [
+    [
       "hashnode/@devorein",
-      "https://hashnode.com/@devorein"
+      "https://hashnode.com/@devorein",
+      "hashnode"
     ],
-    stackoverflow: [
+    [
       "stackoverflow/devorein",
-      "https://stackoverflow.com/users/9745104/devorein"
+      "https://stackoverflow.com/users/9745104/devorein",
+      "stackoverflow"
     ],
-    codewars: [
+    [
       "codewars/Devorein",
       "https://codewars.com/users/Devorein",
+      "codewars"
     ],
-    wakatime: [
+    [
       "wakatime/@devorein",
       "https://wakatime.com/@devorein",
+      "wakatime"
     ],
-    twitter: [
+    [
       "twitter/devorein",
-      "https://twitter.com/devorein"
+      "https://twitter.com/devorein",
+      "twitter"
     ]
-  },
+  ],
   skills: [
     "Algorithm",
     "Data Structures",
@@ -148,11 +156,11 @@ const data = {
       logo: "https://www.zdnet.com/a/hub/i/r/2020/05/11/f9afed5d-33cd-438f-ba73-31b31abba8e1/resize/370xauto/51e7a7c321c6531276c81ec376c7622e/redis-logo-2.png",
     }
   ],
-  education: [
+  educations: [
     {
       name: "BRAC University",
       degree: "Bachelor's degree",
-      fos: "Computer Science",
+      field: "Computer Science",
       start_date: "January, 2021",
       end_date: "January, 2024",
       logo: "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png",
@@ -229,7 +237,7 @@ const data = {
         start_date: "July 5th, 2021",
         end_date: "July 10th, 2021",
       }
-    ] as IProject[],
+    ],
     apps: [
       {
         name: "Desimarketplace",
@@ -279,7 +287,7 @@ const data = {
         start_date: "May 26th, 2021",
         end_date: "Present",
       }
-    ] as IProject[],
+    ],
     libraries: [
       {
         name: "Nishan",
@@ -326,7 +334,7 @@ const data = {
         start_date: "July 16th, 2020",
         end_date: "Aug 27th, 2020",
       }
-    ] as IProject[]
+    ]
   }
 }
 

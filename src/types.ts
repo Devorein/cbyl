@@ -3,7 +3,7 @@ export interface IProject {
   description: string
   links: {
     website?: string
-    github?: string
+    github?: string | null
     npm?: string
   }
   stack: string[],
@@ -67,5 +67,9 @@ export interface IConfig {
   certificates: ICertificate[]
   educations: IEducation[]
   experiences: IExperience[]
-  projects: IProject[]
+  projects: {
+    sites: IProject[],
+    apps: IProject[],
+    libraries: IProject[]
+  }
 }
