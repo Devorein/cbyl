@@ -1,6 +1,8 @@
 import type { IConfig } from "./types";
 
 const data: IConfig = {
+  primary_color: "#ebf5ff",
+  secondary_color: "#d8e4f0",
   name: "Safwan Shaheer",
   title: "Open Source Contributor, Full-stack Web, Mobile and DevOps Engineer.",
   description: "An skilled developer dedicated to lifelong learning with a passion for tinkering with bleeding edge technologies and making an impact along the way.",

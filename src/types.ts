@@ -49,6 +49,8 @@ export interface IExperience {
 }
 
 export interface IConfig {
+  primary_color: string,
+  secondary_color: string,
   name: string
   title: string
   description: string

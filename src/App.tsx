@@ -7,7 +7,9 @@ import data from "./data";
 function App() {
   return (
     <div className="App flex">
-      <div className="sidebar primary-1 flex flex-col align-center">
+      <div className="sidebar flex flex-col align-center" style={{
+        backgroundColor: data.primary_color
+      }}>
         <div className="name heading-2 mv-10px text-center">
           {data.name}
         </div>
@@ -18,7 +20,8 @@ function App() {
           contentRenderComponent="list"
           headerProps={{
             headerText: "Personal Info",
-            headerIcon: 'person'
+            headerIcon: 'person',
+            primary: false
           }}
           listProps={{
             items: [
@@ -41,7 +44,8 @@ function App() {
           contentRenderComponent="list"
           headerProps={{
             headerText: "Profile Links",
-            headerIcon: 'link'
+            headerIcon: 'link',
+            primary: false
           }}
           listProps={{
             items: data.links.map(([label, link, icon]) => ([
@@ -57,7 +61,8 @@ function App() {
           contentRenderComponent="list"
           headerProps={{
             headerText: "Strengths",
-            headerIcon: 'muscle'
+            headerIcon: 'muscle',
+            primary: false
           }}
           listProps={{
             items: data.strengths.map(strengths => [null, strengths])

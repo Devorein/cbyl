@@ -4,7 +4,7 @@ import { Header } from "./Header";
 
 export function Certificates() {
   return <div className="Certificates">
-    <Header headerIcon="medal" headerText="Certificates" />
+    <Header headerIcon="medal" headerText="Certificates" primary={false} />
     <div className="">
       {data.certificates.map(certificate =>
         <div className="flex br-5px bg-white align-center mv-10px p-15px Certificates-item br-5px shadow-lg relative">
