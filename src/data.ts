@@ -2,7 +2,7 @@ import type { IProject } from "./types";
 
 const data = {
   name: "Safwan Shaheer",
-  title: "Open Source Contributor and full-stack Web, Mobile Developer.",
+  title: "Open Source Contributor, Full-stack Web, Mobile and DevOps Engineer.",
   description: "An skilled developer dedicated to lifelong learning with a passion for tinkering with bleeding edge technologies and making an impact along the way.",
   location: "Dhaka, Bangladesh",
   phone: "+8801796263758",
@@ -14,7 +14,7 @@ const data = {
     ],
     github: [
       "github.com/devorein",
-      "https://github/devorein"
+      "https://github.com/devorein"
     ],
     linkedin: [
       "linkedin/devorein",
@@ -46,10 +46,10 @@ const data = {
     "Data Structures",
     "Object Oriented Programming",
     "Test Driven Development",
-    "Open Source Contribution",
+    "Open Source Development",
     "Full Stack Development",
     "Mobile Development",
-    "Linux"
+    "DevOps"
   ],
   strengths: [
     "Fluent in English",
@@ -72,6 +72,7 @@ const data = {
     "Apollo Graphql",
     "Express",
     "Next.js",
+    "Jest",
     "React Native",
     "Storybook",
     "Vue.js",
@@ -83,22 +84,26 @@ const data = {
     "Redis"
   ],
   platforms: [
+    "AWS",
+    "Cloudflare",
     "DigitalOcean",
     "Docker",
+    "Firebase",
     "Github Actions",
     "Heroku",
     "Netlify",
+    "Terraform",
     "Vercel",
-    "Firebase",
-    "Cloudflare Workers"
   ],
   libraries: [
     "Babel",
     "Eslint",
     "Formik",
-    "Jest",
+    "Mongoose",
+    "React Query",
     "React",
     "Redux",
+    "Snowpack",
     "Tailwind CSS",
     "Webpack",
   ],
@@ -242,16 +247,21 @@ const data = {
         end_date: "Present",
       },
       {
-        name: "Rder",
-        description: "Rder is a real-time ride sharing mobile app inspired by Pathao and Uber",
-        links: {},
+        name: "BUPD",
+        description: "A full-stack criminal database application built using modern technology",
+        links: {
+          website: "https://bupd.xyz",
+          github: "https://github.com/devorein/bupd"
+        },
         stack: [
-          "React Native",
-          "AWS",
-          "GCP",
+          "Typescript",
+          "MySql",
+          "Express",
+          "Material UI",
+          "DigitalOcean",
         ],
-        start_date: "April 2nd, 2021",
-        end_date: "June 4th, 2021",
+        start_date: "Dec 6th, 2021",
+        end_date: "Present",
       },
       {
         name: "Reinforz",
@@ -286,50 +296,19 @@ const data = {
         start_date: "Oct 26th, 2020",
         end_date: "Present",
       },
-      /* {
-        name: "github-action-learn-section-notion",
-        description: "Update your github README learn section with data fetched from a remote notion database",
-        links: {
-          github: "https://github.com/Devorein/github-readme-learn-section-notion"
-        },
-        stack: [
-          "Github Actions",
-          "Typescript",
-          "Node",
-          "Notion",
-        ],
-        start_date: "May 4th, 2021",
-        end_date: "May 10th, 2021",
-      }, */
-      /* {
-        name: "Heroku Worker Toggler",
-        description: "A github action to toggle your heroku worker on/off to save resources used by your dyno",
-        links: {
-          github: "https://github.com/devorein/github-action-heroku-worker-toggler"
-        },
-        stack: [
-          "Github Actions",
-          "Node",
-          "Typescript",
-          "Heroku",
-        ],
-        start_date: "Aug 22nd, 2021",
-        end_date: "Aug 27th, 2021",
-      }, */
       {
-        name: "Relendar",
-        description: "A discord bot to keep track of your academic schedule.",
+        name: "Fauton",
+        description: "An ecosystem of packages to work with automaton (dfa/nfa/e-nfa/regex/cfg/pda)",
         links: {
-          github: "https://github.com/devorein/github-action-heroku-worker-toggler"
+          github: "https://github.com/Devorein/fauton",
+          npm: "https://www.npmjs.com/search?q=%40fauton",
         },
         stack: [
           "Typescript",
           "Node",
-          "Moment",
-          "yargs",
-          "discord.js",
+          "Next"
         ],
-        start_date: "July 11th, 2021",
+        start_date: "Nov 6th, 2021",
         end_date: "Present",
       },
       {
