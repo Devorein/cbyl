@@ -4,11 +4,13 @@ import data from "../data";
 import { Header } from "./Header";
 import { List } from "./List";
 
+console.log(data.experiences);
+
 export function Experiences() {
   return <div className="Experiences mb-25px">
     <Header headerIcon="sandtime" headerText="Experiences" />
-    <div className="grid grid-cols-2">
-      <div className="Experiences-content">
+    <div className="Experiences-content">
+      <div className="grid grid-cols-2">
         {data.experiences.map(experience => {
           return <div className="Experiences-item br-5px shadow-lg mt-15px p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
             <div className="flex align-center pb-10px Experiences-item-info">

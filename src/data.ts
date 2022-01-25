@@ -195,6 +195,41 @@ const data: IConfig = {
         website: "https://atlasauthority.com/",
         linkedin: "https://www.linkedin.com/company/atlas-authority/"
       }
+    },
+    {
+      company_name: "Stonks LLC",
+      title: "Backend Developer",
+      logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQFKIpNskB2zFw/company-logo_200_200/0/1642138167933?e=1651104000&v=beta&t=wiIEjPFAro3OxzFq_kfeZKbjdal3xoQJ29j85jvLHQM",
+      location: "New York, United States",
+      start_date: "October 2021",
+      end_date: "Present",
+      employment_type: "Contract",
+      steps: [
+        "Build github actions pipeline for CI/CD",
+        "Migrated database to production",
+        "Updated api meeting requirements of frontend"
+      ],
+      links: {
+        website: "https://stonksllc.com/",
+        linkedin: "https://www.linkedin.com/company/stonksllc/"
+      }
+    },
+    {
+      company_name: "Charmverse",
+      title: "Software Engineer",
+      logo: "https://media-exp1.licdn.com/dms/image/C560BAQFfixfL2L4FHQ/company-logo_100_100/0/1640872171070?e=1651104000&v=beta&t=O7nBNOTxBW4ddKl7pEFnYx38x6iph0HxxSNVYNOEvJg",
+      location: "New York, United States",
+      start_date: "January 2022",
+      end_date: "Present",
+      employment_type: "Part-time",
+      steps: [
+        "Added WYSIWYG editor",
+        "Integrated Notion api"
+      ],
+      links: {
+        website: "https://www.charmverse.io/",
+        linkedin: "https://www.linkedin.com/company/charmverse/"
+      }
     }
   ],
   projects: {
