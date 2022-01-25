@@ -4,8 +4,6 @@ import data from "../data";
 import { Header } from "./Header";
 import { List } from "./List";
 
-console.log(data.experiences);
-
 export function Experiences() {
   return <div className="Experiences mb-25px">
     <Header headerIcon="sandtime" headerText="Experiences" />

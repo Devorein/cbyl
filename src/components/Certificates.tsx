@@ -7,7 +7,7 @@ export function Certificates() {
     <Header headerIcon="medal" headerText="Certificates" primary={false} />
     <div className="">
       {data.certificates.map(certificate =>
-        <div className="flex br-5px bg-white align-center mv-10px p-15px Certificates-item br-5px shadow-lg relative">
+        <div key={certificate.name} className="flex br-5px bg-white align-center mv-10px p-15px Certificates-item br-5px shadow-lg relative">
           <img src={certificate.logo} alt={certificate.name} height={100} width={100} className="mr-15px" />
           <div>
             <div className="heading-5 mb-10px text-bold">
