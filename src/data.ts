@@ -8,7 +8,7 @@ const data: IConfig = {
   description: "An skilled developer dedicated to lifelong learning with a passion for tinkering with bleeding edge technologies and making an impact along the way.",
   location: "Dhaka, Bangladesh",
   phone: "+8801796263758",
-  email: "safwanshaheer00@gmail.com",
+  emails: ["safwanshaheer00@gmail.com", "safwan.shaheer.bd@gmail.com"],
   links: [
     [
       "devorein.me",
@@ -29,6 +29,11 @@ const data: IConfig = {
       "hashnode/@devorein",
       "https://hashnode.com/@devorein",
       "hashnode"
+    ],
+    [
+      "dev.to/devorein",
+      "https://dev.to/devorein",
+      "dev.to"
     ],
     [
       "stackoverflow/devorein",

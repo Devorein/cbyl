@@ -56,7 +56,7 @@ export interface IConfig {
   description: string
   location: string
   phone: string
-  email: string
+  emails: string[]
   links: [label: string, link: string, icon: string][]
   skills: string[]
   strengths: string[]

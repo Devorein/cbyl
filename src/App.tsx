@@ -33,10 +33,7 @@ function App() {
                 "phone",
                 data.phone
               ],
-              [
-                "email",
-                data.email
-              ]
+              ...data.emails.map(email => ["email", email] as any)
             ]
           }}
         />
