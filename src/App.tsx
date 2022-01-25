@@ -67,11 +67,11 @@ function App() {
         />
         <Certificates />
       </div>
-      <div className="main-content ml-10px w-100p">
+      <div className="main-content ml-10px">
         <div className="grid grid-cols-2">
           <Education />
-          <Experiences />
         </div>
+        <Experiences />
         <Projects />
         <Skills />
       </div>
