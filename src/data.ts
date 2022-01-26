@@ -122,6 +122,7 @@ const data: IConfig = {
     "Snowpack",
     "Tailwind CSS",
     "Webpack",
+    "Sequelize"
   ].sort(),
   tools: [
     "Figma",
