@@ -103,6 +103,7 @@ const data: IConfig = {
     "Cloudflare",
     "DigitalOcean",
     "Docker",
+    "Kubernetes",
     "Firebase",
     "Github Actions",
     "Heroku",
