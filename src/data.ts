@@ -81,6 +81,7 @@ const data: IConfig = {
     "Python",
     "Go",
     "Sass",
+    "Solidity",
     "Bash"
   ].sort(),
   frameworks: [
