@@ -134,12 +134,12 @@ const data: IConfig = {
   ].sort(),
   certificates: [
     {
-      name: "Postman Student Expert",
-      organization: "Postman",
-      issue_date: "Jul, 2021",
+      name: "Docker and Kubernetes: The Complete Guide",
+      organization: "Udemy",
+      issue_date: "Jan, 2022",
       expiration_date: "N/A",
-      credential_url: "https://badgr.com/backpack/badges/60e86db63c77ab51736dc19f",
-      logo: "https://media.badgr.com/uploads/badges/assertion-HYxMMyUgT8GDzczzRbo8AQ.png",
+      credential_url: "https://www.udemy.com/certificate/UC-6a1db634-db2b-4144-af09-52bb93f4f9c5",
+      logo: "https://img-c.udemycdn.com/course/480x270/1793828_7999_2.jpg",
     },
     {
       name: "RU330: Redis Security",

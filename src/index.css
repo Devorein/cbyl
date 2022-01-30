@@ -38,6 +38,10 @@ body{
   font-weight: 800;
 }
 
+.fit-contain {
+  object-fit: contain;
+}
+
 .heading-1{
   font-weight: 800;
   font-size: 40px;
@@ -55,6 +59,11 @@ body{
 
 .heading-4{
   font-size: 20px;
+  font-weight: 500;
+}
+
+.heading-5{
+  font-size: 18px;
   font-weight: 500;
 }
 

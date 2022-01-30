@@ -8,7 +8,7 @@ export function Certificates() {
     <div className="">
       {data.certificates.map(certificate =>
         <div key={certificate.name} className="flex br-5px bg-white align-center mv-10px p-15px Certificates-item br-5px shadow-lg relative">
-          <img src={certificate.logo} alt={certificate.name} height={100} width={100} className="mr-15px" />
+          <img src={certificate.logo} alt={certificate.name} height={100} width={100} className="mr-15px fit-contain" />
           <div>
             <div className="heading-5 mb-10px text-bold">
               <a className="link" href={certificate.credential_url} target="_blank">
