@@ -10,7 +10,7 @@ export function Experiences() {
     <div className="Experiences-content">
       <div className="grid grid-cols-2">
         {data.experiences.map(experience => {
-          return <div className="Experiences-item br-5px shadow-lg mt-15px p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
+          return <div className="Experiences-item br-5px shadow-lg p-15px relative" key={experience.company_name + experience.employment_type + experience.title}>
             <div className="flex align-center pb-10px Experiences-item-info">
               <img src={experience.logo} alt={experience.company_name} height={100} width={100} className="mr-10px" />
               <div className="absolute p-5px top-0 right-0">
@@ -38,7 +38,9 @@ export function Experiences() {
                 <div className="body-2">
                   {experience.start_date} - {experience.end_date}
                 </div>
-                <div>
+                <div style={{
+                  color: "rgba(0, 0, 0, 0.5)"
+                }}>
                   {experience.location}
                 </div>
               </div>

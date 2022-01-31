@@ -5,16 +5,18 @@ import type { HeaderProps } from "./Header";
 type BlockProps = {
   headerProps: HeaderProps
   chipsProps: ChipsProps
-  contentRenderComponent: "chips"
+  contentRenderComponent: "chips",
+  className?: string
 } | {
   headerProps: HeaderProps
   listProps: ListProps
-  contentRenderComponent: "list"
+  contentRenderComponent: "list",
+  className?: string
 }
 
 export function Block(props: BlockProps) {
-  const { headerProps } = props;
-  return <div className="Block w-100p mb-15px">
+  const { headerProps, className = "" } = props;
+  return <div className={`Block w-100p ${className}`}>
     <Header {...headerProps} />
     <div className="Block-content">
       {props.contentRenderComponent === "list" ? <List {...props.listProps} /> : <Chips {...props.chipsProps} />}

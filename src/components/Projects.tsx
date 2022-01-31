@@ -33,7 +33,7 @@ function Project(props: { project: IProject }) {
 export function Projects() {
   return <div className="Projects mb-15px">
     <Header headerIcon="building" headerText="Projects" />
-    <div className="mb-5px p-10px">
+    <div className="mb-5px p-5px">
       <Header headerText="Sites" headerIcon="browser" primary={false} />
       <div className="grid grid-cols-3">
         {
@@ -41,7 +41,7 @@ export function Projects() {
         }
       </div>
     </div>
-    <div className="mb-5px p-10px">
+    <div className="mb-5px p-5px">
       <Header headerText="Apps" headerIcon="window" primary={false} />
       <div className="grid grid-cols-3">
         {
@@ -49,7 +49,7 @@ export function Projects() {
         }
       </div>
     </div>
-    <div className="mb-5px p-10px">
+    <div className="mb-5px p-5px">
       <Header headerText="Libraries" headerIcon="cube" primary={false} />
       <div className="grid grid-cols-3">
         {
@@ -57,6 +57,5 @@ export function Projects() {
         }
       </div>
     </div>
-    <div className="divider"></div>
   </div>
 }

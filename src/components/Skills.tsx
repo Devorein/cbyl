@@ -6,7 +6,7 @@ import { Header } from "./Header";
 export function Skills() {
   return <div className="Skills">
     <Header headerIcon={"puzzle"} headerText={"Skills"} />
-    <div className="p-10px grid grid-cols-3">
+    <div className="ph-5px grid grid-cols-3">
       <Block
         headerProps={{
           headerText: "Languages",

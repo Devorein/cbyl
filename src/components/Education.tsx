@@ -6,9 +6,9 @@ import { Icon } from "./Icon";
 export function Education() {
   return <div className="Education">
     <Header headerIcon="mortarboard" headerText="Education" />
-    <div className="">
+    <div className="mb-15px">
       {data.educations.map(education =>
-        <div key={`${education.degree}.${education.field}.${education.name}`} className="flex align-center mv-15px p-15px Education-item br-5px shadow-lg relative">
+        <div key={`${education.degree}.${education.field}.${education.name}`} className="flex align-center p-15px Education-item br-5px shadow-lg relative">
           <img src={education.logo} alt={education.name} height={95} width={100} className="mr-15px" />
           <div className="absolute p-5px top-0 right-0">
             <div className="flex p-5px align-center">

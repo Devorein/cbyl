@@ -187,7 +187,7 @@ const data: IConfig = {
       logo: "https://www.clipartmax.com/png/middle/345-3458375_atlas-authority-llc-logo-traffic-sign.png",
       location: "New York, United States",
       start_date: "July 2021",
-      end_date: "Present",
+      end_date: "Oct 2021",
       employment_type: "Part-time",
       steps: [
         "Building a notion integration using forge platform",
@@ -227,7 +227,8 @@ const data: IConfig = {
       employment_type: "Part-time",
       steps: [
         "Added WYSIWYG editor",
-        "Integrated Notion api"
+        "Integrated Notion api",
+        "Build UI and components"
       ],
       links: {
         website: "https://www.charmverse.io/",

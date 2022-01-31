@@ -36,6 +36,7 @@ function App() {
               ...data.emails.map(email => ["email", email] as any)
             ]
           }}
+          className="mb-15px"
         />
         <Block
           contentRenderComponent="list"
@@ -53,6 +54,7 @@ function App() {
               }
             ]))
           }}
+          className="mb-15px"
         />
         <Block
           contentRenderComponent="list"
@@ -64,6 +66,7 @@ function App() {
           listProps={{
             items: data.strengths.map(strengths => [null, strengths])
           }}
+          className="mb-15px"
         />
         <Certificates />
       </div>

@@ -1,5 +1,6 @@
 body{
   font-family: "Manrope";
+  padding: 25px;
 }
 
 @font-face{
@@ -98,7 +99,7 @@ body{
 }
 
 .shadow-lg{
-  box-shadow: 1px 4px 6px 3px rgb(0, 0, 0, 0.1), 0 3px 3px 0 rgb(0, 0, 0, 0.06);
+  box-shadow: 1px 3px 6px 2px rgb(0, 0, 0, 0.1), 0 2px 4px 0 rgb(0, 0, 0, 0.06);
 }
 
 .shadow-md{
@@ -335,7 +336,7 @@ body{
 
 .grid-cols-2{
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 
 .grid-cols-3{
